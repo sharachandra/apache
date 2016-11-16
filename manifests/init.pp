@@ -46,6 +46,3 @@ class apache (
     class { '::apache::service': } ->
   Class['::apache']
 }
-
-
-}
